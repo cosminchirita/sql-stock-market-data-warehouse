@@ -1,40 +1,127 @@
-# SQL Stock Market Data Warehouse
+# 📈 SQL Stock Market Data Warehouse
 
-This project demonstrates a financial market data warehouse built with SQL.
+A financial market data warehouse built with SQL and SQLite for stock market analytics, technical analysis, and business intelligence reporting.
 
-## Project Overview
+This project simulates a real-world financial analytics environment by integrating stock prices, technical indicators, and news sentiment data into a structured relational database.
 
-The database stores company information, historical stock prices, technical indicators, and financial news sentiment data.
+---
 
-## Database Tables
+## 🚀 Features
 
-- companies
-- stock_prices
-- technical_indicators
-- news_sentiment
+- Financial data warehouse architecture
+- Historical stock price analysis
+- Technical indicator tracking (RSI, MACD, Moving Averages)
+- News sentiment analysis
+- Advanced SQL analytics queries
+- SQL Views for reporting and dashboarding
+- Business Intelligence-ready dataset
 
-## SQL Concepts Used
+---
 
-- Relational database design
-- Primary keys and foreign keys
-- JOINs
-- GROUP BY aggregations
-- Window functions
-- CTE-ready analysis structure
-- CASE statements
-- Views
-- Financial analytics queries
+## 📊 Database Schema
 
-## Business Questions Answered
+### Companies
+Stores company master data:
 
-- What is the latest closing price for each company?
-- Which stocks had the highest trading volume?
-- What is the average closing price by company?
-- What are the daily returns?
-- Which stocks show bullish or bearish technical signals?
-- What is the average news sentiment per company?
+- Ticker
+- Company Name
+- Sector
+- Exchange
 
-## Technologies
+### Stock Prices
+Stores historical market data:
+
+- Open Price
+- High Price
+- Low Price
+- Close Price
+- Trading Volume
+
+### Technical Indicators
+Stores technical analysis metrics:
+
+- RSI
+- MACD
+- MACD Signal
+- 50-Day Moving Average
+- 200-Day Moving Average
+
+### News Sentiment
+Stores financial news sentiment information:
+
+- Sentiment Score
+- Sentiment Label
+- Headlines
+
+---
+
+## 📈 Financial Analytics Performed
+
+### Latest Closing Price by Company
+
+Retrieves the most recent stock closing price.
+
+### Average Closing Price Analysis
+
+Calculates average stock performance over time.
+
+### Daily Return Calculation
+
+Measures percentage daily stock returns.
+
+### Technical Signal Detection
+
+Identifies bullish and bearish technical setups using RSI and MACD.
+
+### News Sentiment Analysis
+
+Evaluates market sentiment for individual companies.
+
+---
+
+## 📋 SQL Concepts Demonstrated
+
+- Relational Database Design
+- Primary & Foreign Keys
+- Multi-table JOINs
+- Aggregate Functions
+- GROUP BY Analysis
+- CASE Statements
+- SQL Views
+- Financial KPI Calculations
+- Business Intelligence Reporting
+
+---
+
+## 📸 Query Results
+
+### Latest Closing Price
+
+![Latest Closing Price](screenshots/latest_closing_price.jpg)
+
+### Average Closing Price
+
+![Average Closing Price](screenshots/average_closing_price.jpg)
+
+### Daily Returns
+
+![Daily Returns](screenshots/daily_return.jpg)
+
+### Technical Signals
+
+![Technical Signals](screenshots/technical_signals.jpg)
+
+### News Sentiment
+
+![News Sentiment](screenshots/news_sentiment.jpg)
+
+### SQL Views
+
+![Views](screenshots/views_results.jpg)
+
+---
+
+## 🛠 Technologies
 
 - SQL
 - SQLite
@@ -42,6 +129,10 @@ The database stores company information, historical stock prices, technical indi
 - Git
 - GitHub
 
-## Author
+---
 
-Cosmin-Gabriel Chiriță
+## 👨‍💻 Author
+
+**Cosmin-Gabriel Chiriță**
+
+Financial Analytics • Business Intelligence • SQL • Python • AI
